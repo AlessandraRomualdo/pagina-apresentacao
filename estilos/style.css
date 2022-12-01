@@ -35,6 +35,8 @@ p{
 }
 section{
    margin: auto;
+   transition: width .3s, height .3s ;
+    transition-timing-function: ease;
 }
 .imagem-nome{
     width: 370px;
@@ -58,13 +60,13 @@ section{
     width: 350px;
     padding: 7px;
     margin: 15px auto;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 2px 5px  20px rgba(0, 0, 0, 0.488);
     cursor: pointer;
 }
 .card:hover{
     background-color: var(--cor3);
-    border: 0.2em dashed var(--cor5);
+    border: 0.1em dashed var(--cor5);
     transition: 1.1s;
 }
 a{

@@ -1,0 +1,62 @@
+@charset "UFT-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /*Versão para tablet*/
+    .principal{
+        width: 98vw;
+    }
+    .imagem-nome{
+       float: right;
+       width: 48%;
+       height: auto;
+       margin: 50px 0 0 5px;
+    }
+    .infos{
+        float: left;
+        width: 50%;
+        height: auto;
+        margin: 50px 0 0 10px;
+    }
+    .card{
+        width: 100%;
+    }
+    p{
+        margin-top: 70px;
+    }
+    .imagem-nome img{
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 992px){
+    /*Versão para telas maiores*/
+    .principal{
+        width: 98vw;
+        margin: auto;
+    }
+    .imagem-nome{
+      float: left;
+      padding: 15px;
+      width: 48%; 
+      height: 100vh;
+    }
+    .infos{
+        float: right;
+        padding: 15px ;
+        width: 48%;
+        height: 100vh;
+    }
+    .card{
+        width: 100%;
+    }
+    .imagem-nome img{
+        margin-top: 40px;
+    }
+    h1{
+        font-size: 2.7em;
+    }
+    p{
+        margin-top: 60px;
+        font-size: 1.3em;
+    }
+    
+}
